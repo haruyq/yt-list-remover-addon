@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube-List-Remover",
+  "version": "1.0",
+
+  "description": "Youtubeでリンクをコピーした際に、プレイリストを自動的に除外します。",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://youtu.be/*"],
+      "js": ["remover.js"]
+    }
+  ]
+}
