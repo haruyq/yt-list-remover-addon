@@ -5,6 +5,12 @@
 
   "description": "Youtubeでリンクをコピーした際に、プレイリストを自動的に除外します。",
 
+  "applications": {
+    "gecko": {
+      "id": "borderify@example.com"
+    }
+  },
+
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*", "*://youtu.be/*"],
