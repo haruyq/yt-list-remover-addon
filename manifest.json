@@ -9,7 +9,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "yt-list-remover@example.com",
+      "id": "yt-list-remover@haruyq.org",
       "strict_min_version": "102.0"
     }
   },
