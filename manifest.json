@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Youtube-List-Remover",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Youtubeでリンクをコピーした際に、プレイリストを自動的に除外します。",
 
@@ -9,7 +9,7 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "yt-list-remover@example.com",
+      "id": "4ecb4993-9847-4186-b451-084b4ef5981e",
       "strict_min_version": "102.0"
     }
   },
