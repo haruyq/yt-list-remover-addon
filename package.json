@@ -1,0 +1,15 @@
+{
+  "name": "yt-list-remover-addon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Developer tooling for the yt-list-remover Firefox extension.",
+  "devDependencies": {
+    "web-ext": "^8.10.0"
+  },
+  "scripts": {
+    "build": "web-ext build --overwrite-dest --source-dir . --artifacts-dir ./dist",
+    "lint": "web-ext lint --source-dir .",
+    "start:firefox": "web-ext run --source-dir . --firefox=nightly",
+    "start:firefox-android": "web-ext run --source-dir . --target=firefox-android"
+  }
+}
