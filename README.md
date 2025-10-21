@@ -14,7 +14,7 @@ Firefoxで署名されていないアドオンを通常インストールしよ�
 
 - **一時的に読み込む (推奨)**: `about:debugging#/runtime/this-firefox` を開き、「一時的なアドオンを読み込む」をクリックして `manifest.json` を選択します。Firefox を再起動するまでは有効です。
 - **署名を無効化する (Nightly/Dev 限定)**: `about:config` で `xpinstall.signatures.required` を `false` に変更した後、`manifest.zip` (または `.xpi`) を「ファイルからインストール」で読み込みます。※通常版では無効化できません。
-- **AMO にアップロードして署名**: `web-ext sign` などで Mozilla アドオンサイトの署名を取得すると、通常インストールが可能になります。
+- **AMOからインストール**: [こちらからインストールできます](https://addons.mozilla.org/ja/firefox/addon/youtube-list-remover/)
 
 ## 開発 / 実行方法
 
